@@ -1,0 +1,23 @@
+.icon-card-wrapper {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .08);
+  display: flex;
+  flex-direction: column;
+  height: 190px;
+  justify-content: center;
+  width: 160px;
+}
+
+.icon-card-wrapper:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .16);
+}
+
+.icon-card-text {
+  color: #313944;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 140%;
+  margin-top: 16px;
+}
