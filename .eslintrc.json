@@ -4,15 +4,17 @@
     "react-app/jest"
   ],
   "rules": {
-    "quotes": ["error", "double"],
+    "quotes": [ "error", "double" ],
     "no-trailing-spaces": "error",
-    "indent": ["error", 2],
+    "indent": [ "error", 2 ],
     "no-unused-vars": "error",
     "space-infix-ops": "error",
-    "object-curly-spacing": ["error", "always"],
-    "array-bracket-spacing": ["error", "always"],
+    "object-curly-spacing": [ "error", "always" ],
+    "array-bracket-spacing": [ "error", "always" ],
     "no-console": "error",
     "camelcase": "error",
-    "semi": "error"
+    "semi": "error",
+    "react/jsx-curly-brace-presence": [ "error", { "props":  "never", "children":  "never" } ],
+    "quote-props": [ "error", "as-needed" ]
   }
 }
