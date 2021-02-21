@@ -1,23 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Header from "./modules/common/components/Header";
 
+const HEADER_TEXT = "An all-in-one personal knowledge base";
 function App() {
   return (
     <div className="app">
-      <header className="app-header">
-        <img src={logo} className="app-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="app-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header text={HEADER_TEXT}/>
     </div>
   );
 }
