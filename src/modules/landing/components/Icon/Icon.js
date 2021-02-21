@@ -17,7 +17,6 @@ const Icon = ({ id, state, backgroundColor }) => {
       fillColor: DEFAULT_COLOR
     },
     [COLORED]: {
-      backgroundColor: DEFAULT_BACKGROUND_COLOR,
       fillColor: COLOR
     }
   });
