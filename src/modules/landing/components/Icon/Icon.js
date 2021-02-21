@@ -33,8 +33,12 @@ const Icon = ({ id, state, backgroundColor }) => {
   useEffect(handleBackgroundColorChange, [ backgroundColor ]);
 
   const renderIcon = () => {
+    const CLASS_NAMES = {
+      COLORED: "icon",
+      DEFAULT: null
+    };
     const MyIcon = ICONS[id];
-    return <MyIcon fill={states[state].fillColor}/>;
+    return <MyIcon fill={states[state].fillColor} className={CLASS_NAMES[state]}/>;
   };
 
   return (
