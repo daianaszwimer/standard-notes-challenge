@@ -5,8 +5,8 @@ const Link = ({ text, url, shouldShowIcon }) => (
   <a className="link" href={url}>
     {text}
     {shouldShowIcon ?
-      <div className="link-icon">
-        <ArrowIcon title="arrow"/>
+      <div className="link-icon-wrapper">
+        <ArrowIcon className="link-icon" title="arrow"/>
       </div>
       : null
     }

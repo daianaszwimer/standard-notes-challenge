@@ -26,6 +26,15 @@
 }
 
 .link-icon {
+  transition: transform .3s;
+}
+
+.link:hover .link-icon {
+  transform: translateX(3px);
+  transition: transform .3s ease-in-out;
+}
+
+.link-icon-wrapper {
   align-items: center;
   display: flex;
   margin-left: 5.8px;
