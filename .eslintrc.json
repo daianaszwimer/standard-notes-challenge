@@ -4,6 +4,14 @@
     "react-app/jest"
   ],
   "rules": {
-    "quotes": ["error", "double"]
+    "quotes": ["error", "double"],
+    "no-trailing-spaces": "error",
+    "indent": ["error", 2],
+    "no-unused-vars": "error",
+    "space-infix-ops": "error",
+    "object-curly-spacing": ["error", "always"],
+    "array-bracket-spacing": ["error", "always"],
+    "no-console": "error",
+    "camelcase": "error"
   }
 }
