@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 48px;
+  width: 100%;
 }
 
 .subtitle-wrapper {
