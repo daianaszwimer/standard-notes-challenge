@@ -12,6 +12,7 @@
     "object-curly-spacing": ["error", "always"],
     "array-bracket-spacing": ["error", "always"],
     "no-console": "error",
-    "camelcase": "error"
+    "camelcase": "error",
+    "semi": "error"
   }
 }
