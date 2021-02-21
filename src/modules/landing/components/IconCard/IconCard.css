@@ -7,11 +7,29 @@
   flex-direction: column;
   height: 190px;
   justify-content: center;
+  position: relative;
+  -webkit-transition: all .6s cubic-bezier(.165, .84, .44, 1);
+  transition: all .6s cubic-bezier(.165, .84, .44, 1);
   width: 160px;
 }
 
-.icon-card-wrapper:hover {
+.icon-card-wrapper::after {
+  border-radius: 5px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, .16);
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all .6s cubic-bezier(.165, .84, .44, 1);
+  transition: all .6s cubic-bezier(.165, .84, .44, 1);
+  width: 100%;
+  z-index: -1;
+}
+
+.icon-card-wrapper:hover::after {
+  opacity: 1;
 }
 
 .icon-card-text {
