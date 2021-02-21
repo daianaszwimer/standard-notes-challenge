@@ -1,11 +1,11 @@
 import "./App.css";
-import Header from "./modules/common/components/Header";
+import Title from "./modules/common/components/Title";
 
 const HEADER_TEXT = "An all-in-one personal knowledge base";
 
 const App = () => (
   <div className="wrapper">
-    <Header text={HEADER_TEXT}/>
+    <Title text={HEADER_TEXT}/>
   </div>
 );
 

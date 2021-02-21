@@ -1,4 +1,5 @@
 .wrapper {
   display: flex;
   justify-content: center;
+  padding: 48px;
 }
