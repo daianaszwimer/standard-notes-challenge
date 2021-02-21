@@ -1,29 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 
+@font-face {
+  font-family: "Avenir Next";
+  src: local("Avenir Next"), url(./fonts/avenir-next.ttf) format("ttf");
+}
+
 body {
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    "Roboto",
-    "Oxygen",
-    "Ubuntu",
-    "Cantarell",
-    "Fira Sans",
-    "Droid Sans",
-    "Helvetica Neue",
-    sans-serif;
+  font-family: "Avenir Next", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
-}
-
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    "Courier New",
-    monospace;
 }
