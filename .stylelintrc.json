@@ -1,0 +1,13 @@
+{
+  "extends": "stylelint-config-standard",
+  "plugins": [
+    "stylelint-order"
+  ],
+  "rules": {
+    "number-leading-zero": "never",
+    "string-quotes": "double",
+    "selector-class-pattern": "^([a-z][a-z0-9]*)(-[a-z0-9]+)*$",
+    "property-no-unknown": true,
+    "order/properties-alphabetical-order": true
+  }
+}
