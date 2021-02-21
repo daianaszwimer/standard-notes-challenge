@@ -4,9 +4,20 @@
     "react-app/jest"
   ],
   "rules": {
+    "indent": [
+      "error",
+      2,
+      {
+        "ignoredNodes": [
+          "TemplateLiteral"
+        ]
+      }
+    ],
+    "template-curly-spacing": [
+      "off"
+    ],
     "quotes": [ "error", "double" ],
     "no-trailing-spaces": "error",
-    "indent": [ "error", 2 ],
     "no-unused-vars": "error",
     "space-infix-ops": "error",
     "object-curly-spacing": [ "error", "always" ],
