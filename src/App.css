@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: center;
   margin: 73px;
-  padding: 48px;
+  padding: 48px 48px calc(48px - 32px);
 }
 
 .subtitle-wrapper {
@@ -17,6 +17,6 @@
 
 .slideshow-wrapper {
   overflow: hidden;
-  padding: 32px 0 0;
+  padding: 32px 0;
   width: 100%;
 }
