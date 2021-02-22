@@ -25,3 +25,10 @@
 
   to { transform: translateX(-100%); }
 }
+
+@media only screen and (max-width: 680px) {
+  .icon-card-slideshow-wrapper {
+    -webkit-animation: marquee 10s linear infinite;
+    animation: marquee 10s linear infinite;
+  }
+}
