@@ -53,7 +53,10 @@ const Icon = ({ id, state, backgroundColor }) => {
       DEFAULT: null
     };
     const MyIcon = ICONS[id];
-    return <MyIcon fill={states[state].fillColor} className={CLASS_NAMES[state]}/>;
+    return <MyIcon
+      fill={states[state].fillColor}
+      className={CLASS_NAMES[state]}
+    />;
   };
 
   return (
