@@ -58,8 +58,7 @@ const App = () => (
       />
     </>
     <div className="slideshow-wrapper">
-      {/* we send the same array with items duplicated because otherwise in some resolutions there is a space that looks weird*/}
-      <IconCardSlideshow cards={CARDS.concat(CARDS)}/>
+      <IconCardSlideshow cards={CARDS}/>
     </div>
   </header>
 );
