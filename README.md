@@ -1,5 +1,7 @@
 # Standard Notes Challenge
 
+[![tests](https://github.com/daianaszwimer/standard-notes-challenge/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/daianaszwimer/standard-notes-challenge/actions/workflows/node.js.yml)
+
 ## Demo
 
 ![](https://github.com/daianaszwimer/public/blob/main/standard-notes-preview.gif)
