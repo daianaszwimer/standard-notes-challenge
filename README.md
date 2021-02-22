@@ -41,9 +41,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run deploy`
 
-**Note: Make sure you're on the `gh-pages` branch**
-
-Uploads build files to GitHub and deploys to gh-pages
+Uploads build files to `gh-pages` branch and deploys to gh-pages
 
 ### `npm run lint`
 
