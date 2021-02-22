@@ -9,13 +9,43 @@ const SUBTITLE_TEXT = "Write simple notes, or complex ones. From tasks and todos
 const LINK_TEXT = "Explore our features";
 const CARDS = [
   {
+    id: "markdown",
+    text: "Markdown",
+    hoverIconColor: "#54457F"
+  },
+  {
+    id: "rich-text",
+    text: "Rich text",
+    hoverIconColor: "#DB2763"
+  },
+  {
+    id: "spreadsheet",
+    text: "Spreadsheet",
+    hoverIconColor: "#1AA772"
+  },
+  {
     id: "tasks",
     text: "Tasks and todos",
-    hoverIconColor: "#1AA772"
+    hoverIconColor: "#06BEE1"
+  },
+  {
+    id: "code",
+    text: "Code snippets",
+    hoverIconColor: "#D64045"
+  },
+  {
+    id: "passwords",
+    text: "Passwords",
+    hoverIconColor: "#FEB95F"
+  },
+  {
+    id: "plain-text",
+    text: "Plain text",
+    hoverIconColor: "#735CDD"
   }
 ];
 const App = () => (
-  <div className="wrapper">
+  <header className="wrapper">
     <>
       <Title text={TITLE_TEXT}/>
       <div className="subtitle-wrapper">
@@ -28,9 +58,10 @@ const App = () => (
       />
     </>
     <div className="slideshow-wrapper">
-      <IconCardSlideshow cards={CARDS}/>
+      {/* we send the same array with items duplicated because otherwise in some resolutions there is a space that looks weird*/}
+      <IconCardSlideshow cards={CARDS.concat(CARDS)}/>
     </div>
-  </div>
+  </header>
 );
 
 export default App;

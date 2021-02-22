@@ -1,10 +1,22 @@
 import { useEffect, useState } from "react";
 import "./Icon.css";
-import { ReactComponent as TaskIcon } from "../../assets/tasks.svg";
 import { DEFAULT, COLORED } from "./states";
+import { ReactComponent as TaskIcon } from "../../assets/tasks.svg";
+import { ReactComponent as CodeIcon } from "../../assets/code.svg";
+import { ReactComponent as MarkdownIcon } from "../../assets/markdown.svg";
+import { ReactComponent as PasswordsIcon } from "../../assets/passwords.svg";
+import { ReactComponent as PlainTextIcon } from "../../assets/plain-text.svg";
+import { ReactComponent as RichTextIcon } from "../../assets/rich-text.svg";
+import { ReactComponent as SpreadsheetIcon } from "../../assets/spreadsheet.svg";
 
 const ICONS = {
-  tasks: TaskIcon
+  tasks: TaskIcon,
+  code: CodeIcon,
+  markdown: MarkdownIcon,
+  passwords: PasswordsIcon,
+  "plain-text": PlainTextIcon,
+  "rich-text": RichTextIcon,
+  spreadsheet: SpreadsheetIcon,
 };
 const DEFAULT_COLOR = "#63666B";
 const COLOR = "#fff";
