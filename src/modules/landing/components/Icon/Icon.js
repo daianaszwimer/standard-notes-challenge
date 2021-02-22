@@ -1,6 +1,12 @@
 import { useEffect, useState } from "react";
 import "./Icon.css";
-import { DEFAULT, COLORED } from "./states";
+import {
+  DEFAULT_BACKGROUND_COLOR,
+  DEFAULT_COLOR,
+  COLOR,
+  DEFAULT_STATE,
+  COLORED_STATE
+} from "./constants";
 import { ReactComponent as TaskIcon } from "../../assets/tasks.svg";
 import { ReactComponent as CodeIcon } from "../../assets/code.svg";
 import { ReactComponent as MarkdownIcon } from "../../assets/markdown.svg";
@@ -18,17 +24,14 @@ const ICONS = {
   "rich-text": RichTextIcon,
   spreadsheet: SpreadsheetIcon,
 };
-const DEFAULT_COLOR = "#63666B";
-const COLOR = "#fff";
-const DEFAULT_BACKGROUND_COLOR = "#fff";
 
 const Icon = ({ id, state, backgroundColor }) => {
   const [ states, setStates ] = useState({
-    [DEFAULT]: {
+    [DEFAULT_STATE]: {
       backgroundColor: DEFAULT_BACKGROUND_COLOR,
       fillColor: DEFAULT_COLOR
     },
-    [COLORED]: {
+    [COLORED_STATE]: {
       fillColor: COLOR
     }
   });

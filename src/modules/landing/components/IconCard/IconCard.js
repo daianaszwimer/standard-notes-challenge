@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./IconCard.css";
 import Icon from "../Icon";
-import { DEFAULT, COLORED } from "../Icon/states";
+import { DEFAULT_STATE, COLORED_STATE } from "../Icon/constants";
 
 const IconCard = ({ text, id, hoverIconColor }) => {
   const [ isHovering, setIsHovering ] = useState(false);
@@ -22,7 +22,7 @@ const IconCard = ({ text, id, hoverIconColor }) => {
     >
       <Icon
         id={id}
-        state={isHovering ? COLORED : DEFAULT}
+        state={isHovering ? COLORED_STATE : DEFAULT_STATE}
         backgroundColor={hoverIconColor}
       />
       <span

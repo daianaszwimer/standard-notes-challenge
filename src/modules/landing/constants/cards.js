@@ -1,4 +1,4 @@
-const CARDS = [
+const ITEMS = [
   {
     id: "markdown",
     text: "Markdown",
@@ -37,5 +37,5 @@ const CARDS = [
 ];
 
 export {
-  CARDS
+  ITEMS
 };
