@@ -1,8 +1,12 @@
 .wrapper {
   align-items: center;
+  background-color: #f8f9fc;
+  border: 1px solid #ccd2da;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 73px;
   padding: 48px;
 }
 
@@ -12,5 +16,7 @@
 }
 
 .slideshow-wrapper {
-  padding: 32px 0;
+  overflow: hidden;
+  padding: 32px 0 0;
+  width: 100%;
 }
