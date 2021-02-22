@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/standard-notes-challenge/static/css/main.3d46944e.chunk.css",
+    "main.css": "/standard-notes-challenge/static/css/main.4c7c8c50.chunk.css",
     "main.js": "/standard-notes-challenge/static/js/main.985b3bd7.chunk.js",
     "main.js.map": "/standard-notes-challenge/static/js/main.985b3bd7.chunk.js.map",
     "runtime-main.js": "/standard-notes-challenge/static/js/runtime-main.7f8d3fae.js",
@@ -10,7 +10,7 @@
     "static/js/3.9567606b.chunk.js": "/standard-notes-challenge/static/js/3.9567606b.chunk.js",
     "static/js/3.9567606b.chunk.js.map": "/standard-notes-challenge/static/js/3.9567606b.chunk.js.map",
     "index.html": "/standard-notes-challenge/index.html",
-    "static/css/main.3d46944e.chunk.css.map": "/standard-notes-challenge/static/css/main.3d46944e.chunk.css.map",
+    "static/css/main.4c7c8c50.chunk.css.map": "/standard-notes-challenge/static/css/main.4c7c8c50.chunk.css.map",
     "static/js/2.c8d30314.chunk.js.LICENSE.txt": "/standard-notes-challenge/static/js/2.c8d30314.chunk.js.LICENSE.txt",
     "static/media/index.css": "/standard-notes-challenge/static/media/avenir-next.94f2f163.ttf",
     "static/media/arrow.af11f6d4.svg": "/standard-notes-challenge/static/media/arrow.af11f6d4.svg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.7f8d3fae.js",
     "static/js/2.c8d30314.chunk.js",
-    "static/css/main.3d46944e.chunk.css",
+    "static/css/main.4c7c8c50.chunk.css",
     "static/js/main.985b3bd7.chunk.js"
   ]
 }
