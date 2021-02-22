@@ -15,7 +15,11 @@ const IconCard = ({ text, id, hoverIconColor }) => {
   };
 
   return (
-    <div className="icon-card-wrapper" onMouseEnter={handleOnMouseEnter} onMouseLeave={handleOnMouseLeave}>
+    <div
+      className="icon-card-wrapper"
+      onMouseEnter={handleOnMouseEnter}
+      onMouseLeave={handleOnMouseLeave}
+    >
       <Icon
         id={id}
         state={isHovering ? COLORED : DEFAULT}
