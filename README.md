@@ -10,7 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The folders structure were mostly based on [TAO Of React](https://alexkondov.com/tao-of-react/#application-structure)
 
-In the [issues section](https://github.com/daianaszwimer/standard-notes-challenge/issues), you will see some features I wish I had the time to implement, but unfortunately I didn't
+In the [issues section](https://github.com/daianaszwimer/standard-notes-challenge/issues), you will see some features/bugs I wish I had the time to implement/fix, but unfortunately I didn't
 
 ## Available Scripts
 
