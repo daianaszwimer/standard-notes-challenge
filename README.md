@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Standard Notes Challenge
+
+## Demo
+
+![](https://github.com/daianaszwimer/public/blob/main/standard-notes-preview.gif)
+
+[Demo Here](https://daianaszwimer.github.io/standard-notes-challenge/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+The folders structure were mostly based on [TAO Of React](https://alexkondov.com/tao-of-react/#application-structure)
+
+In the [issues section](https://github.com/daianaszwimer/standard-notes-challenge/issues), you will see some features I wish I had the time to implement, but unfortunately I didn't
 
 ## Available Scripts
 
@@ -29,6 +39,20 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run deploy`
+
+**Note: Make sure you're on the `gh-pages` branch**
+
+Uploads build files to GitHub and deploys to gh-pages
+
+### `npm run lint`
+
+Automatically fixes [ESLint](https://eslint.org/) problems
+
+### `npm run lint:styles`
+
+Automatically fixes [stylelint](https://stylelint.io/) problems
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
@@ -38,32 +62,6 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
