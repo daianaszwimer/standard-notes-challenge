@@ -1,7 +1,9 @@
 .subtitle {
+  animation: 1.2s ease-out .5s 1 slideInFromTop forwards;
   color: #313944;
   font-size: 18px;
   font-weight: 500;
   line-height: 150%;
   margin: 0;
+  opacity: 0;
 }
