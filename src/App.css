@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: center;
   margin: 73px;
-  padding: 48px 48px calc(48px - 32px);
+  padding: 48px 0 calc(48px - 32px);
 }
 
 .subtitle-wrapper {
