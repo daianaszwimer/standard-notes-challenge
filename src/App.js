@@ -11,7 +11,7 @@ const CARDS = [
   {
     id: "markdown",
     text: "Markdown",
-    hoverIconColor: "#54457F"
+    hoverIconColor: "#05299E"
   },
   {
     id: "rich-text",
@@ -31,12 +31,12 @@ const CARDS = [
   {
     id: "code",
     text: "Code snippets",
-    hoverIconColor: "#D64045"
+    hoverIconColor: "#C1292E"
   },
   {
     id: "passwords",
     text: "Passwords",
-    hoverIconColor: "#FEB95F"
+    hoverIconColor: "#F17105"
   },
   {
     id: "plain-text",
