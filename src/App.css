@@ -3,6 +3,7 @@
   background-color: #f8f9fc;
   border: 1px solid #ccd2da;
   border-radius: 8px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;

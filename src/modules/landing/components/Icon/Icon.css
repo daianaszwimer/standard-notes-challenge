@@ -2,6 +2,7 @@
   align-items: center;
   border: 1px solid #ebedf3;
   border-radius: 50%;
+  box-sizing: border-box;
   display: flex;
   height: 56px;
   justify-content: center;
