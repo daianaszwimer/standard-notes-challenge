@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/standard-notes-challenge/static/css/main.727ea5ea.chunk.css",
+    "main.js": "/standard-notes-challenge/static/js/main.a7de6f90.chunk.js",
+    "main.js.map": "/standard-notes-challenge/static/js/main.a7de6f90.chunk.js.map",
+    "runtime-main.js": "/standard-notes-challenge/static/js/runtime-main.7f8d3fae.js",
+    "runtime-main.js.map": "/standard-notes-challenge/static/js/runtime-main.7f8d3fae.js.map",
+    "static/js/2.c8d30314.chunk.js": "/standard-notes-challenge/static/js/2.c8d30314.chunk.js",
+    "static/js/2.c8d30314.chunk.js.map": "/standard-notes-challenge/static/js/2.c8d30314.chunk.js.map",
+    "static/js/3.9567606b.chunk.js": "/standard-notes-challenge/static/js/3.9567606b.chunk.js",
+    "static/js/3.9567606b.chunk.js.map": "/standard-notes-challenge/static/js/3.9567606b.chunk.js.map",
+    "index.html": "/standard-notes-challenge/index.html",
+    "static/css/main.727ea5ea.chunk.css.map": "/standard-notes-challenge/static/css/main.727ea5ea.chunk.css.map",
+    "static/js/2.c8d30314.chunk.js.LICENSE.txt": "/standard-notes-challenge/static/js/2.c8d30314.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/standard-notes-challenge/static/media/avenir-next.94f2f163.ttf",
+    "static/media/arrow.af11f6d4.svg": "/standard-notes-challenge/static/media/arrow.af11f6d4.svg",
+    "static/media/code.a10a892b.svg": "/standard-notes-challenge/static/media/code.a10a892b.svg",
+    "static/media/markdown.57274a58.svg": "/standard-notes-challenge/static/media/markdown.57274a58.svg",
+    "static/media/passwords.b140b02e.svg": "/standard-notes-challenge/static/media/passwords.b140b02e.svg",
+    "static/media/plain-text.fe9dd895.svg": "/standard-notes-challenge/static/media/plain-text.fe9dd895.svg",
+    "static/media/rich-text.da0a55c8.svg": "/standard-notes-challenge/static/media/rich-text.da0a55c8.svg",
+    "static/media/spreadsheet.9a7c2c4a.svg": "/standard-notes-challenge/static/media/spreadsheet.9a7c2c4a.svg",
+    "static/media/tasks.3f7affa2.svg": "/standard-notes-challenge/static/media/tasks.3f7affa2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f8d3fae.js",
+    "static/js/2.c8d30314.chunk.js",
+    "static/css/main.727ea5ea.chunk.css",
+    "static/js/main.a7de6f90.chunk.js"
+  ]
+}
