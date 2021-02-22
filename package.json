@@ -21,7 +21,7 @@
     "lint": "eslint --fix --ext .js,.jsx ./src",
     "lint:styles": "npx stylelint --fix \"**/*.css\"\n",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
